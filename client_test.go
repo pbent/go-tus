@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/suite"
-	"github.com/tus/tusd"
-	"github.com/tus/tusd/filestore"
+	"github.com/tus/tusd/pkg/filestore"
+	tusd "github.com/tus/tusd/pkg/handler"
 )
 
 type MockStore struct {
