@@ -1,8 +1,8 @@
 FROM golang:1.9
 
-RUN mkdir -p /go/src/github.com/eventials/go-tus
+RUN mkdir -p /go/src/github.com/pbent/go-tus
 
-WORKDIR /go/src/github.com/eventials/go-tus
+WORKDIR /go/src/github.com/pbent/go-tus
 
 RUN go get github.com/stretchr/testify
 RUN go get github.com/tus/tusd
